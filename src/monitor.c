@@ -81,6 +81,7 @@ void putch(char c) {
   uInt16 loc = pixel_offset(curx, cury); 
   CURPIX = ((uInt16*)VGA_BADR) + loc;
   uInt16 attribute = BGCOLOR << 4 | FGCOLOR & 0xF;
+  // TODO cursor CRLF and scroll
   if (c == LF) {
     cury++;
     curx = 1;
