@@ -41,4 +41,5 @@ void fault_handler(register_t regs) {
   putch('\n');
   puti(regs.err_code);
   for (;;);
+  // TODO handle the errors here 
 }
