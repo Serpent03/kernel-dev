@@ -1,6 +1,6 @@
 # TinyThread
 
-A small, simple RTOS(transitioning to GPOS) made with the use of C and assembly. 
+A small, simple GPOS made with the use of C and assembly. 
 
 ## Pre-Requisites
 - CC/GCC
